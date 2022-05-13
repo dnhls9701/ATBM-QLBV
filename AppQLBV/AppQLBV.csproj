@@ -81,6 +81,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BNMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BNMenu.Designer.cs">
+      <DependentUpon>BNMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="CSYTMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,12 +181,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TTCN_BN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTCN_BN.Designer.cs">
+      <DependentUpon>TTCN_BN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTCN_NV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTCN_NV.Designer.cs">
+      <DependentUpon>TTCN_NV.cs</DependentUpon>
+    </Compile>
     <Compile Include="YBSMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="YBSMenu.Designer.cs">
       <DependentUpon>YBSMenu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BNMenu.resx">
+      <DependentUpon>BNMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CSYTMenu.resx">
       <DependentUpon>CSYTMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -235,6 +256,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TTCN_BN.resx">
+      <DependentUpon>TTCN_BN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TTCN_NV.resx">
+      <DependentUpon>TTCN_NV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="YBSMenu.resx">
       <DependentUpon>YBSMenu.cs</DependentUpon>
     </EmbeddedResource>

@@ -33,6 +33,7 @@ namespace AppQLBV
             this.buttonHSBADV = new System.Windows.Forms.Button();
             this.buttonHSBA = new System.Windows.Forms.Button();
             this.btnDangXuat = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -49,7 +50,7 @@ namespace AppQLBV
             // buttonHSBADV
             // 
             this.buttonHSBADV.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.buttonHSBADV.Location = new System.Drawing.Point(229, 238);
+            this.buttonHSBADV.Location = new System.Drawing.Point(230, 247);
             this.buttonHSBADV.Margin = new System.Windows.Forms.Padding(4);
             this.buttonHSBADV.Name = "buttonHSBADV";
             this.buttonHSBADV.Size = new System.Drawing.Size(204, 37);
@@ -61,7 +62,7 @@ namespace AppQLBV
             // buttonHSBA
             // 
             this.buttonHSBA.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.buttonHSBA.Location = new System.Drawing.Point(229, 171);
+            this.buttonHSBA.Location = new System.Drawing.Point(230, 193);
             this.buttonHSBA.Margin = new System.Windows.Forms.Padding(4);
             this.buttonHSBA.Name = "buttonHSBA";
             this.buttonHSBA.Size = new System.Drawing.Size(204, 37);
@@ -81,11 +82,24 @@ namespace AppQLBV
             this.btnDangXuat.UseVisualStyleBackColor = false;
             this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button1.Location = new System.Drawing.Point(230, 135);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(204, 37);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Thông tin cá nhân";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmGiaoDienCSYT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(657, 377);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnDangXuat);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonHSBADV);
@@ -104,5 +118,6 @@ namespace AppQLBV
         private System.Windows.Forms.Button buttonHSBADV;
         private System.Windows.Forms.Button buttonHSBA;
         private System.Windows.Forms.Button btnDangXuat;
+        private System.Windows.Forms.Button button1;
     }
 }

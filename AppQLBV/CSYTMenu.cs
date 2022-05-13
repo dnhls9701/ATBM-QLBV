@@ -48,5 +48,13 @@ namespace AppQLBV
                 //..
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TTCN_NV tTCN_NV = new TTCN_NV();
+            this.Hide();
+            tTCN_NV.ShowDialog();
+            this.Show();
+        }
     }
 }

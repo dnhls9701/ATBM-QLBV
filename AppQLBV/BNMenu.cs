@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace AppQLBV
 {
-    public partial class frmGiaoDienNC : Form
+    public partial class frmGiaoDienBN : Form
     {
         frmDangNhap frmDangNhap = new frmDangNhap();
-        public frmGiaoDienNC()
+        public frmGiaoDienBN()
         {
             InitializeComponent();
         }
@@ -33,27 +33,11 @@ namespace AppQLBV
             }
         }
 
-        private void buttonHSBA_Click(object sender, EventArgs e)
+        private void buttonTTCN_Click(object sender, EventArgs e)
         {
-            HSBA_NC hSBA_NC = new HSBA_NC();
+            TTCN_BN tTCN_BN = new TTCN_BN();
             this.Hide();
-            hSBA_NC.ShowDialog();
-            this.Show();
-        }
-
-        private void buttonHSBADV_Click(object sender, EventArgs e)
-        {
-            HSBADV_NC hSBADV = new HSBADV_NC();
-            this.Hide();
-            hSBADV.ShowDialog();
-            this.Show();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            TTCN_NV tTCN_NV = new TTCN_NV();
-            this.Hide();
-            tTCN_NV.ShowDialog();
+            tTCN_BN.ShowDialog();
             this.Show();
         }
     }

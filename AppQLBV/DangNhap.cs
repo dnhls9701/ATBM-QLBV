@@ -88,6 +88,12 @@ namespace AppQLBV
                         frmGiaoDienNC.ShowDialog();
                         this.Show();
                         break;
+                    case "BENHNHAN":
+                        frmGiaoDienBN frmGiaoDienBN = new frmGiaoDienBN();
+                        this.Hide();
+                        frmGiaoDienBN.ShowDialog();
+                        this.Show();
+                        break;
                 }
             }
             catch (Exception ex)

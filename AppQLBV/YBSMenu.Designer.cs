@@ -33,6 +33,7 @@ namespace AppQLBV
             this.buttonHSBA = new System.Windows.Forms.Button();
             this.buttonHSBN = new System.Windows.Forms.Button();
             this.btnDangXuat = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -49,7 +50,7 @@ namespace AppQLBV
             // buttonHSBA
             // 
             this.buttonHSBA.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.buttonHSBA.Location = new System.Drawing.Point(226, 212);
+            this.buttonHSBA.Location = new System.Drawing.Point(224, 187);
             this.buttonHSBA.Margin = new System.Windows.Forms.Padding(4);
             this.buttonHSBA.Name = "buttonHSBA";
             this.buttonHSBA.Size = new System.Drawing.Size(204, 37);
@@ -61,7 +62,7 @@ namespace AppQLBV
             // buttonHSBN
             // 
             this.buttonHSBN.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.buttonHSBN.Location = new System.Drawing.Point(226, 287);
+            this.buttonHSBN.Location = new System.Drawing.Point(224, 248);
             this.buttonHSBN.Margin = new System.Windows.Forms.Padding(4);
             this.buttonHSBN.Name = "buttonHSBN";
             this.buttonHSBN.Size = new System.Drawing.Size(204, 37);
@@ -81,11 +82,24 @@ namespace AppQLBV
             this.btnDangXuat.UseVisualStyleBackColor = false;
             this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button1.Location = new System.Drawing.Point(224, 310);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(204, 37);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Thông tin cá nhân";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmGiaoDienYBS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(657, 463);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnDangXuat);
             this.Controls.Add(this.buttonHSBN);
             this.Controls.Add(this.label1);
@@ -104,5 +118,6 @@ namespace AppQLBV
         private System.Windows.Forms.Button buttonHSBA;
         private System.Windows.Forms.Button buttonHSBN;
         private System.Windows.Forms.Button btnDangXuat;
+        private System.Windows.Forms.Button button1;
     }
 }
